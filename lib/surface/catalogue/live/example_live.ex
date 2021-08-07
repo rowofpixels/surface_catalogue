@@ -1,5 +1,5 @@
 defmodule Surface.Catalogue.ExampleLive do
-  use Surface.LiveView
+  use Surface.LiveView, layout: nil
 
   @default_body [style: "padding: 1.5rem; height: 100%;"]
 

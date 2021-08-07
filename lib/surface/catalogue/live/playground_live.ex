@@ -1,5 +1,5 @@
 defmodule Surface.Catalogue.PlaygroundLive do
-  use Surface.LiveView
+  use Surface.LiveView, playground: nil
 
   alias Surface.Catalogue.Playground
 

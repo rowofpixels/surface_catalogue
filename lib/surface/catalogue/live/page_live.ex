@@ -1,5 +1,5 @@
 defmodule Surface.Catalogue.PageLive do
-  use Surface.LiveView
+  use Surface.LiveView, layout: {Surface.Catalogue.LayoutView, "root.html"}
 
   alias Surface.Catalogue.{Playground, Util, ExampleLive, PlaygroundLive, Markdown}
   alias Surface.Catalogue.Components.{ComponentInfo, ComponentTree, PlaygroundTools}
